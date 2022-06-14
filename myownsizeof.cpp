@@ -1,13 +1,14 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
-        template<class T>
+
+template<class T>
 size_t mySizeOf(T)
 {
         T temp1;
         return (char*)(&temp1 + 1) - (char*)(&temp1);
 }
+
 int main()
 {
         int num = 10;
